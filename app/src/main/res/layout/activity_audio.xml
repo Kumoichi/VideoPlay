@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioActivity">
+
+    <Button
+        android:id="@+id/audio_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/audio_button_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601"
+        style = "@style/Audio1"/>
+
+    <Button
+        android:id="@+id/audio_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/audio_button_3"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Audio2"/>
+
+    <Button
+        android:id="@+id/audio_button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/audio_button_4"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Audio3"/>
+
+    <Button
+        android:id="@+id/audio_button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/audio_button_5"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Audio4"/>
+
+    <Button
+        android:id="@+id/audio_button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Audio5"/>
+
+    <Button
+        android:id="@+id/pause_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/audio_button_1"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Pause_Buttons"/>
+
+    <Button
+        android:id="@+id/pause_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/audio_button_2"
+        app:layout_constraintTop_toBottomOf="@+id/pause_button_1"
+        style="@style/Pause_Buttons"/>
+
+    <Button
+        android:id="@+id/pause_button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/audio_button_3"
+        app:layout_constraintTop_toBottomOf="@+id/pause_button_2"
+        style="@style/Pause_Buttons"/>
+
+    <Button
+        android:id="@+id/pause_button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/audio_button_4"
+        app:layout_constraintTop_toBottomOf="@+id/pause_button_3"
+        style="@style/Pause_Buttons"/>
+
+    <Button
+        android:id="@+id/pause_button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/audio_button_5"
+        app:layout_constraintTop_toBottomOf="@+id/pause_button_4"
+        app:layout_constraintVertical_bias="0.251"
+        style="@style/Pause_Buttons"/>
+
+    <Button
+        android:id="@+id/stop_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toEndOf="@+id/pause_button_1"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Stop_Buttons"/>
+
+    <Button
+        android:id="@+id/stop_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toEndOf="@+id/pause_button_2"
+        app:layout_constraintTop_toBottomOf="@+id/stop_button_1"
+        style="@style/Stop_Buttons"/>
+
+    <Button
+        android:id="@+id/stop_button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toEndOf="@+id/pause_button_3"
+        app:layout_constraintTop_toBottomOf="@+id/stop_button_2"
+        app:layout_constraintVertical_bias="0.136"
+        style="@style/Stop_Buttons"/>
+
+    <Button
+        android:id="@+id/stop_button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toEndOf="@+id/pause_button_4"
+        app:layout_constraintTop_toBottomOf="@+id/stop_button_3"
+        style="@style/Stop_Buttons"/>
+
+    <Button
+        android:id="@+id/stop_button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toEndOf="@+id/pause_button_5"
+        app:layout_constraintTop_toBottomOf="@+id/stop_button_4"
+        style="@style/Stop_Buttons"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

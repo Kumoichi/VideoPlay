@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VideoPlay</string>
+    <string name="audio1">Audio1</string>
+    <string name="audio2">Audio2</string>
+    <string name="audio3">Audio3</string>
+    <string name="audio4">Audio4</string>
+    <string name="audio5">Audio5</string>
+    <string name="pause1">Pause1</string>
+    <string name="pause2">Pause2</string>
+    <string name="pause3">Pause3</string>
+    <string name="pause4">Pause4</string>
+    <string name="pause5">Pause5</string>
+
+
+</resources>

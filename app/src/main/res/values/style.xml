@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Audio_Buttons">
+       <item name="android:backgroundTint">@color/teal_200</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:onClick">playSound</item>
+    </style>
+    
+    <style name="Audio1" parent="Audio_Buttons">
+        <item name="android:text">@string/audio1</item>
+    </style>
+
+    <style name="Audio2" parent="Audio_Buttons">
+        <item name="android:text">@string/audio2</item>
+    </style>
+
+    <style name="Audio3" parent="Audio_Buttons">
+        <item name="android:text">@string/audio3</item>
+    </style>
+
+    <style name="Audio4" parent="Audio_Buttons">
+        <item name="android:text">@string/audio4</item>
+    </style>
+
+    <style name="Audio5" parent="Audio_Buttons">
+        <item name="android:text">@string/audio5</item>
+    </style>
+
+
+    <style name="Pause_Buttons">
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:onClick">pauseSound</item>
+        <item name="android:text">Pause</item>
+    </style>
+
+
+    <style name="Stop_Buttons">
+        <item name="android:backgroundTint">@color/purple_200</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:onClick">stopSound</item>
+        <item name="android:text">Stop</item>
+    </style>
+
+
+
+</resources>
